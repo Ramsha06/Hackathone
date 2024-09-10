@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2596be;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #2596be;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  form {
+    background-color: #2596be;
+    margin-bottom: 20px;
+  }
+  
+  fieldset {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  legend {
+    font-weight: bold;
+  }
+  
+  label {
+    display: block;
+    margin: 5px 0;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="url"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+  }
+  
+  button {
+    display: block;
+    margin: 20px 0;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .resume {
+    display: none;
+  }
+  
+  .resume img {
+    max-width: 150px;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  .resume h1 {
+    font-size: 2em;
+  }
+  
+  .resume h2 {
+    font-size: 1.5em;
+  }
+  
+  .resume ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .resume ul li {
+    margin: 5px 0;
+  }
+  
